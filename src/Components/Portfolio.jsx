@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/meeting.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "meeting";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Car Sales Dashboard",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "a dynamic car sales analysis dashboard created using Microsoft Power BI, uncovering sales trends",
+    url: "https://github.com/darshaasif/Car-Sales-Analysis-with-Power-BI",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Web Scraping & Data Cleaning",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributes in web scraping and data cleaning through different tools",
+    url: "https://github.com/darshaasif/Web-Scraping-Data-cleaning",
   },
   {
-    title: "My Resume Site",
+    title: "Data Visualization",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created different visualization using different datasets and using advance PowerBI and DAX functions ",
+    url: "https://github.com/darshaasif/Data-Visualization",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Virtual Internship Projects",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions & Prepared a PowerPoint deck and video  presentation to communicate key insights for the client and internal stakeholder",
+    url: "https://github.com/darshaasif/Accenture-Internship",
   },
 ];
 

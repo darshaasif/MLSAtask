@@ -36,8 +36,6 @@ const Footer = (props) => {
     medium,
     name,
     primaryColor,
-    twitter,
-    youTube,
   } = props;
 
   return (
