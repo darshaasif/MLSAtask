@@ -96,7 +96,7 @@ const Footer = (props) => {
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
-        {twitter && (
+        {/* {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
@@ -109,7 +109,7 @@ const Footer = (props) => {
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
-        )}
+        )} */}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
@@ -131,8 +131,8 @@ Footer.propTypes = {
   medium: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
-  twitter: PropTypes.string,
-  youTube: PropTypes.string,
+  // twitter: PropTypes.string,
+  // youTube: PropTypes.string,
 
 };
 
